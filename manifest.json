@@ -1,0 +1,21 @@
+{
+  "name": "Cia da Pizza Delivery",
+  "short_name": "Cia Pizza",
+  "description": "Faça seu pedido de pizza facilmente!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#d62828",
+  "icons": [
+    {
+      "src": "/icone.png",  // Coloque o caminho do ícone da pizzaria
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icone.png",  // Coloque o caminho do ícone da pizzaria
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
