@@ -14,7 +14,8 @@
       "type": "image/png"
     },
     {
-      "src": "/icone.png",  // Coloque o caminho do ícone da pizzaria
+      "src": "/icone.png",  cia-da-pizza
+/ícone2.png
       "sizes": "512x512",
       "type": "image/png"
     }
