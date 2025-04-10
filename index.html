@@ -62,6 +62,13 @@
       margin-right: 10px;
       transform: scale(1.2);
     }
+    input[type="number"] {
+      width: 60px;
+      padding: 5px;
+      margin-left: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
     #subtotal {
       font-weight: bold;
       margin-top: 20px;
@@ -116,57 +123,74 @@
         <input type="checkbox" value="45" data-name="Pizza Calabresa - R$45,00">
         Pizza Calabresa - R$45,00
         <span class="ingredientes">Ingredientes: Molho, muçarela, calabresa, cebola, azeitona, manjericão, azeite e orégano.</span>
+        <input type="number" min="1" value="1" class="quantidade">      
+      </label>
+      <label>
+        <input type="checkbox" value="45" data-name="Pizza Napolitana - R$45,00">
+        Pizza Napolitana - R$45,00
+        <span class="ingredientes">Ingredientes: Molho, muçarela, presunto, tomate, pimentão, manjericão,azeite e oregano.</span>
+        <input type="number" min="1" value="1" class="quantidade">      
       </label>
       <label>
         <input type="checkbox" value="45" data-name="Pizza Portuguesa - R$45,00">
         Pizza Portuguesa - R$45,00
         <span class="ingredientes">Ingredientes: Molho, muçarela, presunto, tomate, cebola, pimentão, ovo, azeitona, azeite e orégano.</span>
+        <input type="number" min="1" value="1" class="quantidade">      
       </label>
       <label>
         <input type="checkbox" value="45" data-name="Pizza Mussarela - R$45,00">
         Pizza Mussarela - R$45,00
         <span class="ingredientes">Ingredientes: Molho, muçarela, manjericão, azeite e orégano.</span>
+        <input type="number" min="1" value="1" class="quantidade">      
       </label>
       <label>
         <input type="checkbox" value="45" data-name="Pizza de Frango - R$45,00">
         Pizza de Frango - R$45,00
         <span class="ingredientes">Ingredientes: Molho, muçarela, frango, azeitona, azeite e orégano.</span>
+        <input type="number" min="1" value="1" class="quantidade">      
       </label>
       <label>
         <input type="checkbox" value="46" data-name="Pizza Frango Cremoso - R$46,00">
         Pizza Frango Cremoso - R$46,00
         <span class="ingredientes">Ingredientes: Molho, muçarela, frango, requeijão cremoso, azeitona, azeite e orégano.</span>
+        <input type="number" min="1" value="1" class="quantidade">      
       </label>
       <label>
         <input type="checkbox" value="48" data-name="Pizza Nordestina - R$48,00">
         Pizza Nordestina - R$48,00
         <span class="ingredientes">Ingredientes: Molho, muçarela, carne seca, cebola, requeijão, cebolinha, azeite e orégano.</span>
+        <input type="number" min="1" value="1" class="quantidade">      
       </label>
       <label>
         <input type="checkbox" value="48" data-name="Pizza Carne Seca - R$48,00">
         Pizza Carne Seca - R$48,00
         <span class="ingredientes">Ingredientes: Molho, muçarela, carne seca, requeijão cremoso, azeitona, azeite e orégano.</span>
+        <input type="number" min="1" value="1" class="quantidade">      
       </label>
       <label>
         <input type="checkbox" value="48" data-name="Pizza Calabresa Especial - R$48,00">
         Pizza Calabresa Especial - R$48,00
         <span class="ingredientes">Ingredientes: Molho, queijo, calabresa, ovo, requeijão cremoso, azeitona, azeite e orégano.</span>
+        <input type="number" min="1" value="1" class="quantidade">      
       </label>
       <label>
         <input type="checkbox" value="45" data-name="Pizza Bacon - R$45,00">
         Pizza Bacon - R$45,00
         <span class="ingredientes">Ingredientes: Molho, muçarela, bacon, azeitona, azeite e orégano.</span>
+        <input type="number" min="1" value="1" class="quantidade">      
       </label>
       <label>
         <input type="checkbox" value="45" data-name="Pizza Marguerita - R$45,00">
         Pizza Marguerita - R$45,00
         <span class="ingredientes">Ingredientes: Molho, muçarela, tomate, manjericão, azeite e orégano.</span>
+        <input type="number" min="1" value="1" class="quantidade">      
       </label>
       <label>
         <input type="checkbox" value="55" data-name="Pizza de Camarão - R$55,00">
         Pizza de Camarão - R$55,00
         <span class="ingredientes">Ingredientes: Molho, muçarela, camarão, azeite e orégano.</span>
-      </label>
+        <input type="number" min="1" value="1" class="quantidade">      
+    </label>
     </div>
 
     <div class="section">
@@ -175,12 +199,14 @@
         <input type="checkbox" value="60" data-name="Tortone (Burguer) - R$60,00">
         Tortone (Burguer) - R$60,00
         <span class="ingredientes">Ingredientes: Pão, carne de hambúrguer, queijo, alface, tomate, cebola, molho especial.</span>
+        <input type="number" min="1" value="1" class="quantidade">      
       </label>
       <label>
         <input type="checkbox" value="30" data-name="Calzone (Pastelzão) - R$30,00">
         Calzone (Pastelzão) - R$30,00
         <span class="ingredientes">Ingredientes: Massa de pizza, queijo, presunto, molho de tomate, orégano.</span>
-      </label>
+        <input type="number" min="1" value="1" class="quantidade">      
+    </label>
     </div>
 
     <div class="section">
@@ -189,17 +215,20 @@
         <input type="checkbox" value="45" data-name="Pizza Banana Nevada - R$45,00">
         Pizza Banana Nevada - R$45,00
         <span class="ingredientes">Ingredientes: Molho especial, muçarela, canela e açúcar.</span>
+        <input type="number" min="1" value="1" class="quantidade">      
       </label>
       <label>
         <input type="checkbox" value="48" data-name="Pizza Nutella Especial - R$48,00">
         Pizza Nutella Especial - R$48,00
         <span class="ingredientes">Ingredientes: Creme de leite, nutella, paçoca, m&m e morango.</span>
+        <input type="number" min="1" value="1" class="quantidade">      
       </label>
       <label>
         <input type="checkbox" value="48" data-name="Pizza Uva Verde Cremosa - R$48,00">
         Pizza Uva Verde Cremosa - R$48,00
         <span class="ingredientes">Ingredientes: Creme de leite, uva, nutella e leite em pó.</span>
-      </label>
+        <input type="number" min="1" value="1" class="quantidade">      
+    </label>
     </div>
 
     <div class="section">
@@ -208,17 +237,20 @@
         <input type="checkbox" value="3" data-name="Borda Lateral - R$3,00">
         Borda Lateral - R$3,00
         <span class="ingredientes">Opção: cheddar ou Requeijão.</span>
+        <input type="number" min="1" value="1" class="quantidade">      
       </label>
       <label>
         <input type="checkbox" value="5" data-name="Borda Pãozinho - R$5,00">
         Borda Pãozinho - R$5,00
         <span class="ingredientes">Opção: cheddar ou Requeijão.</span>
+        <input type="number" min="1" value="1" class="quantidade">      
       </label>
       <label>
         <input type="checkbox" value="6" data-name="Borda Vulcão - R$6,00">
         Borda Vulcão - R$6,00
         <span class="ingredientes">Opção: cheddar ou Requeijão.</span>
-      </label>
+        <input type="number" min="1" value="1" class="quantidade">      
+    </label>
     </div>
 
     <div class="section">
@@ -226,15 +258,18 @@
       <label>
         <input type="checkbox" value="15" data-name="Coca Cola 2L - R$15,00">
         Coca Cola - R$15,00
+        <input type="number" min="1" value="1" class="quantidade">      
       </label>
       <label>
         <input type="checkbox" value="15" data-name="Jesus 2L - R$15,00">
         Jesus - R$15,00
+        <input type="number" min="1" value="1" class="quantidade">      
       </label>
       <label>
         <input type="checkbox" value="15" data-name="Guaraná 2L - R$15,00">
         Guaraná - R$15,00
-      </label>
+        <input type="number" min="1" value="1" class="quantidade">      
+    </label>
     </div>
 
     <div class="section">
@@ -242,49 +277,51 @@
       <label>
         <input type="checkbox" value="8" data-name="Coca Cola 1L - R$8,00">
         Coca Cola - R$8,00
+        <input type="number" min="1" value="1" class="quantidade">      
       </label>
       <label>
         <input type="checkbox" value="8" data-name="Jesus 1L - R$8,00">
         Jesus - R$8,00
+        <input type="number" min="1" value="1" class="quantidade">      
       </label>
       <label>
         <input type="checkbox" value="8" data-name="Guaraná 1L - R$8,00">
         Guaraná - R$8,00
-      </label>
+        <input type="number" min="1" value="1" class="quantidade">      
+    </label>
     </div>
 
     <div id="subtotal">Subtotal: R$0,00</div>
     <a href="#" id="whatsapp-link" class="whatsapp-btn">Enviar pedido pelo WhatsApp</a>
   </div>
 
-  <script>
+    <script>
     const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    const quantidadeInputs = document.querySelectorAll('.quantidade');
     const nomeClienteInput = document.getElementById('nome-cliente');
     const subtotalEl = document.getElementById('subtotal');
     const whatsappLink = document.getElementById('whatsapp-link');
 
     function atualizarPedido() {
-      let total = 0;
-      let mensagem = 'Gostaria de fazer um pedido:*%0A%0A';
-      const nomeCliente = nomeClienteInput.value.trim();
-      if (nomeCliente !== '') {
-        mensagem += `*Nome:* ${nomeCliente}%0A%0A`;
-      }
-      checkboxes.forEach(checkbox => {
+      let subtotal = 0;
+      let pedidoTexto = 'Pedido de *' + nomeClienteInput.value + '*\n\n'; // Nome do cliente em negrito
+
+      checkboxes.forEach((checkbox, index) => {
         if (checkbox.checked) {
-          total += parseFloat(checkbox.value);
-          mensagem += `- ${checkbox.dataset.name}%0A`; // Adiciona o nome do produto, sem o valor
+          const quantidade = parseInt(quantidadeInputs[index].value);
+          const valor = parseFloat(checkbox.value);
+          subtotal += valor * quantidade;
+          pedidoTexto += `${checkbox.dataset.name} x${quantidade} - R$${(valor * quantidade).toFixed(2)}\n`;
         }
       });
-      subtotalEl.innerText = `Subtotal: R$${total.toFixed(2).replace('.', ',')}`;
-      const url = `https://wa.me/98986029057?text=${mensagem}%0ASubtotal: R$${total.toFixed(2).replace('.', ',')}`;
-      whatsappLink.href = url;
+
+      subtotalEl.textContent = `Subtotal: R$${subtotal.toFixed(2)}`;
+      pedidoTexto += `\nSubtotal: *R$${subtotal.toFixed(2)}*`; // Subtotal em negrito
+      whatsappLink.href = `https://wa.me/98986029057?text=${encodeURIComponent(pedidoTexto)}`;
     }
 
-    checkboxes.forEach(checkbox => {
-      checkbox.addEventListener('change', atualizarPedido);
-    });
-    nomeClienteInput.addEventListener('input', atualizarPedido);
+    checkboxes.forEach(checkbox => checkbox.addEventListener('change', atualizarPedido));
+    quantidadeInputs.forEach(input => input.addEventListener('input', atualizarPedido));
   </script>
 </body>
 </html>
