@@ -110,37 +110,6 @@
       margin-top: 5px;
       display: block;
     }
-    /* ----------- MODAL DE IMAGEM ----------- */
-  .modal {
-  display: none;
-  position: fixed;
-  z-index: 999;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0,0,0,0.9);
-}
-
-  .modal-img {
-  display: block;
-  margin: 80px auto;
-  max-width: 90%;
-  max-height: 80%;
-  border-radius: 10px;
-}
-
-  .modal-fechar {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  color: #fff;
-  font-size: 40px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
   </style>
 </head>
 <body>
@@ -292,30 +261,6 @@
 
     checkboxes.forEach(checkbox => checkbox.addEventListener('change', atualizarPedido));
     quantidadeInputs.forEach(input => input.addEventListener('input', atualizarPedido));
-  // ----------- MODAL DE IMAGEM -----------
-const imagens = document.querySelectorAll('.pizza-img');
-const modal = document.getElementById('modal');
-const modalImg = document.getElementById('modal-img');
-
-imagens.forEach(img => {
-  img.addEventListener('click', (e) => {
-    e.stopPropagation();
-    modal.style.display = 'block';
-    modalImg.src = img.src;
-  });
-});
-
-function fecharModal() {
-  modal.style.display = 'none';
-}
-
-    </script>
- 
-  <!-- ----------- MODAL DE IMAGEM ----------- -->
-<div id="modal" class="modal" onclick="fecharModal()">
-  <span class="modal-fechar">&times;</span>
-  <img class="modal-img" id="modal-img" />
-</div>
-
+  </script>
 </body>
 </html>
